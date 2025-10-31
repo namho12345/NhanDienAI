@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['khach', 'nhan vien']
+
+roboflow:
+  workspace: nam-ixxv6
+  project: nhan-dien-nv-blbah
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nam-ixxv6/nhan-dien-nv-blbah/dataset/3
