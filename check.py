@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from collections import defaultdict
 
 MODEL_PATH = 'runs/detect/train/weights/best.pt'
-IMAGE_PATH = 'D:/AI/NhanDienAI/train/images/PXL-3_193_jpg.rf.7ef4af8d29bf4608a186a83223f763ea.jpg'
+IMAGE_PATH = 'D:/AI/NhanDienAI/train/images/PXL-4_042_jpg.rf.39b044d5ced8e53403678d364824b54e.jpg'
 CONF_THRESHOLD = 0.4        
 def detect_objects(model_path, image_path, conf_threshold):
     try:
